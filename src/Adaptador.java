@@ -10,8 +10,9 @@ public class Adaptador {
 		if(a.gettipo()!=b.getTipo())
 		{
 			tipo = a.gettipo();
-			System.out.println("se usara un adaptador de "+b.getTipo()+" a " +a.gettipo());
+			System.out.println("Se usara un adaptador de "+b.getTipo()+" a " +a.gettipo());
 		}
+		
 	}
 	
 	public void settipo(String t)
@@ -19,7 +20,11 @@ public class Adaptador {
 		tipo = t;
 	}
 	public String gettipo()
-	{return tipo;}
+	{
+		
+		return tipo;
+		
+	}
 	
 	
 }
