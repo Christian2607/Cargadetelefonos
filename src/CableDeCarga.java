@@ -1,5 +1,5 @@
 
-public class CableDeCarga {
+    abstract class CableDeCarga {
 	
 	private String ladoUSB;
 	private String ladoTelefono;
@@ -9,9 +9,8 @@ public class CableDeCarga {
 		setladousb(a);
 		setLadotelefono(b);
 		
-	}
-	
-	public void setladousb(String l)
+	} 
+	protected void setladousb(String l)
 	{
 		ladoUSB = l;
 	}
@@ -21,7 +20,7 @@ public class CableDeCarga {
 		return ladoUSB;
 	}
 	
-	public void setLadotelefono(String s)
+	protected void setLadotelefono(String s)
 	{
 		ladoTelefono = s;
 	}

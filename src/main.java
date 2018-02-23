@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class main {
 
@@ -10,8 +9,8 @@ public class main {
 		Telefono terminal2 = new Telefono("Galaxy","S8","Android");
 		Tomacorriente Americano = new Tomacorriente("NA",false);
 		Tomacorriente Europeo = new Tomacorriente("UE",false);
-		CableDeCarga Cableapple = new CableDeCarga("USB","Apple");
-		CableDeCarga Cableandroid = new CableDeCarga("USB","Android");
+		CableDeCarga Cableapple = new cargadorapple();
+		CableDeCarga Cableandroid = new cargadorandroid();
 		Cubito cuboamericano = new Cubito("NA");
 		Cubito cuboeuropeo = new Cubito("UE");
 		Adaptador xd = new Adaptador();
