@@ -1,15 +1,11 @@
 
-public class Telefono {
+abstract class Telefono {
 	 
 	private String nombre;
 	private String modelo;
 	private String PuertoDeCarga;
 	
-	Telefono()
-	{
-		
-	}
-	
+
 	Telefono(String nombre,String modelo, String PuertoDeCarga)
 	{
 		setNombre(nombre);

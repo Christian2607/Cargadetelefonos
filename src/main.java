@@ -5,16 +5,16 @@ public class main {
 		// TODO Auto-generated method stub
 		
 	
-		Telefono terminal1 = new Telefono("iPhone","6s","Apple");
-		Telefono terminal2 = new Telefono("Galaxy","S8","Android");
-		Tomacorriente Americano = new Tomacorriente("NA",false);
-		Tomacorriente Europeo = new Tomacorriente("UE",false);
+		Telefono iPhone1 = new iPhone("iPhone","6s");
+		Telefono terminal2 = new Android("Galaxy","S8");
+		Tomacorriente Europeo = new TomacorrienteEuropeo(false);
+		Tomacorriente Americano = new TomacorrienteEEUU(false);
 		CableDeCarga Cableapple = new cargadorapple();
 		CableDeCarga Cableandroid = new cargadorandroid();
-		Cubito cuboamericano = new Cubito("NA");
-		Cubito cuboeuropeo = new Cubito("UE");
+		Cubito cuboamericano = new CuboAmericano();
+		Cubito cuboeuropeo = new CuboEuropeo();
 		Adaptador xd = new Adaptador();
-		Cargartelefono test1 = new Cargartelefono(terminal1,Europeo,Cableandroid,cuboamericano,xd);
+		Cargartelefono test1 = new Cargartelefono(iPhone1,Europeo,Cableandroid,cuboamericano,xd);
 		Cargartelefono test2 = new Cargartelefono(terminal2,Americano,Cableandroid,cuboamericano,xd);
 		
 		

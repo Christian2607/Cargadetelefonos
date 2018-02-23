@@ -1,5 +1,5 @@
 
-public class Tomacorriente {
+abstract class Tomacorriente {
 	
 	private String Tipo;
 	private boolean Estado = false;

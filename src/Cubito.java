@@ -1,5 +1,5 @@
 
-public class Cubito {
+abstract class Cubito {
 	
 	private String tipo;
 	

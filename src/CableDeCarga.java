@@ -1,5 +1,5 @@
 
-    abstract class CableDeCarga {
+ abstract class CableDeCarga {
 	
 	private String ladoUSB;
 	private String ladoTelefono;

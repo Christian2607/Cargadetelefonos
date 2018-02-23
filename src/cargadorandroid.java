@@ -1,4 +1,3 @@
-
 public class cargadorandroid extends CableDeCarga{
 
 	public cargadorandroid() {
