@@ -1,3 +1,8 @@
+import ClasesAbstractas.Tomacorriente;
+import ClasesAbstractas.Telefono;
+import ClasesAbstractas.Cubito;
+import ClasesAbstractas.CableDeCarga;
+
 
 public class main {
 

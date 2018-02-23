@@ -1,3 +1,4 @@
+import ClasesAbstractas.Tomacorriente;
 
 public class TomacorrienteEuropeo extends Tomacorriente{
 

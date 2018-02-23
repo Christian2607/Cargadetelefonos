@@ -1,3 +1,4 @@
+import ClasesAbstractas.CableDeCarga;
 
 public class cargadorapple extends CableDeCarga{
 	

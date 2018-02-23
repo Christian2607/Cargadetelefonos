@@ -1,12 +1,13 @@
+package ClasesAbstractas;
 
-abstract class Telefono {
+public abstract class Telefono {
 	 
 	private String nombre;
 	private String modelo;
 	private String PuertoDeCarga;
 	
 
-	Telefono(String nombre,String modelo, String PuertoDeCarga)
+	protected Telefono(String nombre,String modelo, String PuertoDeCarga)
 	{
 		setNombre(nombre);
 		setModelo(modelo);

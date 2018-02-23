@@ -1,5 +1,8 @@
+package ClasesAbstractas;
 
- abstract class CableDeCarga {
+
+
+ public abstract class CableDeCarga {
 	
 	private String ladoUSB;
 	private String ladoTelefono;

@@ -1,5 +1,7 @@
+package ClasesAbstractas;
 
-abstract class Cubito {
+
+public abstract class Cubito {
 	
 	private String tipo;
 	

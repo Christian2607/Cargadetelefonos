@@ -1,3 +1,4 @@
+import ClasesAbstractas.Cubito;
 
 public class CuboAmericano extends Cubito{
 

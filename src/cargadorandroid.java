@@ -1,3 +1,5 @@
+import ClasesAbstractas.CableDeCarga;
+
 public class cargadorandroid extends CableDeCarga{
 
 	public cargadorandroid() {

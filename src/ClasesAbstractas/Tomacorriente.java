@@ -1,5 +1,7 @@
+package ClasesAbstractas;
 
-abstract class Tomacorriente {
+
+public abstract class Tomacorriente {
 	
 	private String Tipo;
 	private boolean Estado = false;

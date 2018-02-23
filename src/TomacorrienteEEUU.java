@@ -1,3 +1,5 @@
+import ClasesAbstractas.Tomacorriente;
+
 
 public class TomacorrienteEEUU extends Tomacorriente{
 

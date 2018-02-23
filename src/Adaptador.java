@@ -1,3 +1,5 @@
+import ClasesAbstractas.Tomacorriente;
+import ClasesAbstractas.Cubito;
 
 public class Adaptador {
 
